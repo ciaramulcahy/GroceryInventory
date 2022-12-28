@@ -26,7 +26,7 @@
 #   Quantity
 #   Nutrition info
 
-#That global information can be used to calculate and compare the following factors across brands and stores: 
+# That global information can be used to calculate and compare the following factors across brands and stores: 
 #     unit price ($/lb, $/ounce, $/fl. ounce)
 #     Price per different nutrients (Calorie, gram of protein etc)
 
