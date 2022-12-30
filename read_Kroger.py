@@ -11,7 +11,7 @@ args = ap.parse_args()
 # Could add find store number later, if feel like shopping multiple places
 
 def find_store(store):
-        #This is not elegant whatsoever
+        #This is not elegant whatsoever, dropdown like in excel would be more effective
         Kroger = False
         TJs = False
         if store == 1:
@@ -21,7 +21,7 @@ def find_store(store):
                 
 
 
-def TJs_list_items(cleanlines):
+def list_items(cleanlines):
 	now_items = False
 	items = []
 	lookup = 'DA'
@@ -122,7 +122,7 @@ def make_items_list_Kroger(lines):
 if Kroger == True:
 	# form a set of (item, price) tuples included on the list
 	item_price_list = []
-	items_only = TJs_list_items(cleanlines)
+	items_only = list_items(cleanlines)
 	#print (TJs_list_items(cleanlines))
 	for line in items_only:
 		entry = item_price_tuple(line)
