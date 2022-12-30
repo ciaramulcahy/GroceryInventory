@@ -27,8 +27,9 @@ This food item name listed on a receipt from a given grocery store can be relate
 - Nutrition info
 
 That global information can be used to calculate and compare the following factors across brands and stores: 
-- unit price ($/lb, $/ounce, $/fl. ounce)
+- unit price ($/lb, $/ounce, $ / fl. ounce)
 - Price per different nutrients (Calorie, gram of protein etc)
 
 # Reports
 - Total spend per category (snacks, fruit, vegetables, carbs, alcohol, beverages)
+- Nutritional deficiencies, presence of allergens/sensitivities
